@@ -1,0 +1,11 @@
+handles.init.Left=0.001;
+handles.init.Right=length(handles.wavfile.data1)/handles.wavfile.feq;
+ZoonLevel=1;
+Left1(ZoonLevel)=handles.init.Left;
+Right1(ZoonLevel)=handles.init.Right;
+handles.init.Left=handles.init.Left;
+handles.init.Right=handles.init.Right;
+handles.init.ZoonLevel=ZoonLevel;
+handles.init.Left1=Left1;
+handles.init.Right1=Right1;
+guidata(hObject,handles);
