@@ -46,7 +46,7 @@ function varargout = guiWavShop(varargin)
 
 % Edit the above text to modify the response to help guiWavShop
 
-% Last Modified by GUIDE v2.5 29-May-2011 17:00:58
+% Last Modified by GUIDE v2.5 29-Nov-2011 15:36:10
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -764,5 +764,3 @@ function menuAplications2_Callback(hObject, eventdata, handles)
 % hObject    handle to menuAplications2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-
-

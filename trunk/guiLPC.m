@@ -27,7 +27,7 @@ function varargout = guiLPC(varargin)
 
 % Edit the above text to modify the response to help guiLPC
 
-% Last Modified by GUIDE v2.5 01-Dec-2010 23:06:38
+% Last Modified by GUIDE v2.5 29-Nov-2011 15:35:46
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -242,9 +242,3 @@ l=ceil(dL/cL);
 y=[ones(1,l);zeros(cL-1,l)];
 y=y(:)';
 y=y(1:dL);
-
-
-
-
-
-
